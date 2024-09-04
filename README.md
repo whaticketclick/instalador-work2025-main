@@ -1,10 +1,67 @@
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+# 🚀 Guia para primeira instalação.
 
-```bash
-sudo apt install -y git && git clone https://github.com/bufftop25/instalador-work2025 && sudo chmod -R 777 instalador-work2025  && cd instalador-work2025  && sudo ./install_primaria
-```
+## Execute todos os comandos seguindo esta ordem:
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
-```bash
-cd ./instalador-work2025  && sudo ./install_instancia
-```
+<details>
+<summary>💻 1. Atualização do sistema</summary>
+
+    sudo apt-get update && sudo apt-get upgrade -y
+</details>
+
+<details>
+<summary>💻 2. Instalação do Gestor de Repositório</summary>
+
+    sudo apt install software-properties-common
+</details>
+
+<details>
+<summary>💻 3. Instale o Git</summary>
+
+    sudo apt install -y git
+</details>
+
+<details>
+<summary>📥 4. Clone o Repositório:</summary>
+
+    git clone https://github.com/whaticketclick/instalador-work2025-main install
+</details>
+
+<details>
+<summary>💻 5. Ajuste as Permissões do Diretório:.</summary>
+
+    sudo chmod -R 777 ./install
+</details>
+
+<details>
+<summary>💻 6. Acesse o Diretório de Instalação:</summary>
+
+    cd ./install
+</details>
+
+<details>
+<summary>💻 7. Inicie a Instalação Primária:</summary>
+
+    sudo ./install_primaria
+</details>
+
+
+
+# 🚀 Guia para segunda instalação.
+
+## Execute todos os comandos seguindo esta ordem:
+
+<details>
+<summary>💻 1. Acesse o Diretório do Instalador:</summary>
+
+    cd ./instalador-work2025
+</details>
+
+<details>
+<summary>💻 2. Execute a Instalação Adicional:</summary>
+
+    sudo ./install_instancia
+</details>
+
+💬 Suporte Técnico
+
+Precisa de ajuda? Entre em contato pelo WhatsApp: 📞 +55 41 99129-9592
